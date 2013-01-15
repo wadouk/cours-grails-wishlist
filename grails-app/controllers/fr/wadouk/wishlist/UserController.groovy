@@ -19,8 +19,6 @@ class UserController {
         [userInstance: new User(params)]
     }
 
-    def scaffold = true
-
     def userService
 
     def save() {
